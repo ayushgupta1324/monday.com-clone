@@ -1,0 +1,61 @@
+.logo-and-text-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.tag-logo{
+    border: 1px solid rgb(144, 128, 250);
+    border-radius: 4px;
+    padding: 0;
+    transform: scale(0.5);
+}
+
+.item-head-div>span{
+    font-size: 22px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: rgb(51,51,51);
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.item-para-div>span{
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: rgb(103,104,121);
+    line-height: 1.15;
+    font-weight: 300;
+}
+
+.tag-wrapper{
+    display: flex;
+    font-size: 12px;
+}
+
+.tag-wrapper>.tags-title{
+    color: rgb(103,104,121);
+    cursor: pointer;
+    line-height: 1.15;
+    box-sizing: border-box;
+    font-weight: 300;
+    margin-bottom: 4px;
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.tag-wrapper>.tag{
+    box-sizing: border-box;
+    display: block;
+    color: rgb(80, 52, 255);
+    background-color: rgba(186, 186, 253, 0.2);
+    cursor: pointer;
+    line-height: 1.15;
+    font-weight: 400;
+    padding: 0 4px;
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
