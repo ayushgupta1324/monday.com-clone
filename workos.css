@@ -66,6 +66,7 @@ h3 {
   height: 50px;
   border-radius: 30px;
   margin-top: 19px;
+  border: none;
 }
 #get > p {
   color: white;
@@ -175,3 +176,103 @@ margin-left: -250px;
     margin-left: 15px;
     width: 90%;
   }
+.galaxy{
+  display: flex;
+  width:70%;
+  margin: auto;
+  margin-top: 25px;
+  
+}
+.para h3{
+  margin-top: 100px;
+  /* border: 1px solid greenyellow; */
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
+  text-align: left;
+  color: white;
+  font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+}
+.para p{
+  font-size: 20px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 50px;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+}
+#center{
+  background: #0F1048;;
+  height: 800px;
+ position: relative;
+  display:flex;
+  margin-top: 120px;
+  clip-path: polygon(100% 50%, 100% 100% 100%);
+
+}
+
+#slanted{
+ width: 100%;
+  height: 1300px;
+  background-color: #0F1048;
+  position: absolute;
+  top: 1100px;
+ left: 0px;
+ transform: skewY(8deg);
+ transform-origin: top left;
+ z-index: -1;
+ margin-top: 120px;
+}
+
+
+.tech{
+  display: flex;
+  width: 70%;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.tech img{
+  width: 15%;
+border-radius: 50px;
+ 
+  
+}
+.tech #quote{
+  color: white;
+  margin-left: 45px;
+}
+#quote>p{
+  line-height: 24px;
+}
+#start{
+  color: white;
+  background:#0F1048;
+  border-color: white;
+  border-radius: 50px;
+  height: 70px;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 79px;
+}
+#right{
+  /* border: 1px solid pink; */
+  margin-top: 190px;
+  margin-right: 150px;
+  width: 75%;
+  height: 400px;
+  box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+  border-radius: 29px;
+}
+#left{
+  /* border: 1px solid red; */
+
+ height: 900px;
+width: 110%;
+ overflow: auto;
+ margin-left: 150px;
+ 
+}
+#left::-webkit-scrollbar{
+  width: 50%;
+}
