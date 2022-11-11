@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+<div id="main-div">
+ <div id="first-div">
+    <h1>Update Task here</h1>
+    <form action="">
+    <label for="">Enter Your Id</label>
+ <input type="number"  id="id" required >
+ <label for="">Enter Your Name</label>
+ <input type="text" id="name" required>
+ <label for="">Choose Department</label>
+ <select name="" id="department">
+<option value="development">Development</option>
+<option value="Test Team">Test team</option>
+<option value="Operation">Operation</option>
+<option value="Customer-Support">Customer-Support</option>
+ </select>
+ <label for="">Add Your Task</label>
+ <input type="text"  id="task" required> 
+ <label for="">Update Your Work Status</label>
+ <select  id="status">
+    <option value="working on it">Working on it</option>
+     <option value="stuck">Stuck</option>
+     <option value="Done">Done</option>
+ </select>
+ <label for="">Date</label>
+ <input type="date"  id="date" required>
+ <input type="submit" value="Create Task"id="create_btn">
+</form>
+</div>
+
+<div id="second-div">
+<table>
+    <thead>
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Department</th>
+<th>Task</th>
+<th>Status</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+    <!-- apend your output to tbody -->
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
+<script src="user.js"></script>
