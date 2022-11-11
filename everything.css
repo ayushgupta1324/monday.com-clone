@@ -373,3 +373,10 @@ margin-left: 20px;
     background: linear-gradient(to right, rgb(0, 200, 117), rgba(0, 200, 117, 0));
     
 }
+
+
+.sourav{
+
+
+width:120px  ;text-align:center;display:flex;align-items: center;margin-left: 20px;margin-top: 9px;border-radius: 25px;
+}
