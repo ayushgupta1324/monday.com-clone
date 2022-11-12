@@ -27,11 +27,59 @@
     margin-left: 16px;
 }
 
-.filter-div{
+#operations-div{
+    display: flex;
+padding: 10px 30px 10px 30px;
+align-items: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.person-filter, .status-filter{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+/* .filter-div{
     display: flex;
     align-items: center;
     cursor: pointer;
-}
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(44, 44, 44);
+} */
 
 .button-and-details-wrapper{
     display: flex;
@@ -45,31 +93,37 @@
     border-radius: 9999px;
     padding: 8px 16px 8px 16px;
     color: white;
-    background-color: crimson;
+    background-color: rgb(20, 140, 220);
     cursor: pointer;
     }
 
 .employee-button{
-    background-color: green;
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
     justify-content: center;
-    height:400px;
 }
 
 .details-wrapper{
-    width: 70%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 
 .employee_div
 {
-    width: 30%;
+    width: 70%;
+    height:100px;
     text-align: center;
     padding: 4px 8px 4px 8px;
     margin-top: 8px;
     display: grid;
+    cursor: pointer;
 }
+
+.operations-div-filter{
+    display: flex;
+}
+
