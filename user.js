@@ -14,7 +14,6 @@ const getData=async()=>{
     function append(data){
 
         data.forEach((el)=>{
-         if(el.id!=1){
          let row=document.createElement("tr")
  
          let td1=document.createElement("td")
@@ -28,24 +27,19 @@ const getData=async()=>{
          td4=document.createElement("td")
          td4.innerText=el.status
          if(el.status=="working on it"){
-            td4.style.background="#FDAB3D"
-            td4.style.color="white"
+            td4.style.background="coral"
          }else if(el.status=="stuck"){
-            td4.style.background="#E2445C"
-            td4.style.color="white"
+            td4.style.background="crimson"
          }else{
-            td4.style.background="#00C875"
-            td4.style.color="white"
+            td4.style.background="green"
          }
          td5=document.createElement("td")
          td5.innerText=el.date
  
   row.append(td1,td2,td6,td3,td4,td5,)
   document.querySelector("tbody").append(row)
-         }
         })
      }
-   
      getData()
 
     
