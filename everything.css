@@ -182,7 +182,9 @@ light{
     
     
 }
-
+span,p{
+    margin-left: 20px;
+}
 .video-container{
   
     border:px solid red;
@@ -296,7 +298,7 @@ display: flex;
     }
 
     .first-divine{
-        border:1px solid red;
+        border:px solid red;
         width: 17%;
         height: auto;
         margin-top: 50px;
@@ -332,7 +334,7 @@ font-size: 15px;
 font-weight: 600px;
 color:#333333;
 font-style: bold;
-margin-left: 20px;
+/* margin-left: 20px; */
 }
 
 
@@ -361,7 +363,7 @@ margin-left: 20px;
 }
 .four{
     width: 85%;
-   height: 3px;
+    height: 3px;
     border:none;
     background: linear-gradient(to right, rgb(255, 153, 0), rgba(255, 153, 0, 0));
     
@@ -374,9 +376,75 @@ margin-left: 20px;
     
 }
 
+.get-started-button-div
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px; ;
+    text-align: center;
+}
 
-.sourav{
+.get-started-btn{
+   background-color: white;
+    border:1px solid black;
+    height: 40px;
+    width: 180px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    border-radius: 9999px;
+    text-align: center;
+}
 
 
-width:120px  ;text-align:center;display:flex;align-items: center;margin-left: 20px;margin-top: 9px;border-radius: 25px;
+
+.get-started-btn:hover span{
+    transform: translate(10px,0);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+.blue-icon{
+    color: rgb(108, 108, 255);
+}
+.pink-icon{
+    color: rgb(240, 64, 149)
+}
+.light-green{
+    color: rgb(0, 210, 210);
+}
+.yellow-icon{
+    color: rgb(255, 153, 0);
+}
+.new-color{
+    color: rgb(0, 200, 117);
+}
+.final-video-div2>video{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.final-video-div{
+    position: relative;
+    margin-top: 20px;
+}
+.custom-shape-divider-bottom-1668263505 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668263505 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 251px;
+}
+
+.custom-shape-divider-bottom-1668263505 .shape-fill {
+    fill: #FFFFFF;
 }
