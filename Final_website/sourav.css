@@ -1,0 +1,325 @@
+#trusted {
+    
+    color: black;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 550px;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+  }
+  #brands {
+    width: 70%;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 120px;
+  }
+  #gallery {
+    width: 100%;
+    /* height: 100px; */
+    margin: auto;
+    display: flex;
+    /* border: 1px solid blue; */
+  }
+  #gallery img {
+    width: 100px;
+  
+    margin: auto;
+  }
+  #work {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    /* justify-content:space-evenly; */
+    gap: 170px;
+    margin-top: 90px;
+  }
+  
+  #os > h3 {
+    /* text-align: center; */
+    font-size: 40px;
+    line-height: 32px;
+    color: #333;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    /* border: 1px solid green; */
+    line-height: 50px;
+    font-weight: lighter;
+  }
+  #gs {
+    width: 50%;
+    /* border: 1px solid red; */
+  }
+  #gs > h4 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: auto;
+    /* border: 1px solid red ; */
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 50px;
+  }
+  #get {
+    cursor: pointer;
+  }
+  #gs > #get {
+    background-color: #6c6cff;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 19px;
+    border: none;
+  }
+  #get > p {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+  
+  }
+  #all{
+    /* border: 4px solid rebeccapurple; */
+    width: 90%;
+    display: flex;
+  }
+  #flex{
+    display: flex;
+    width: 50%;
+    /* border: 3px solid rgb(8, 69, 238); */
+    margin-left: 200px;
+    margin-top: 60px;
+  
+  }
+  #two{
+    margin: auto;
+  }
+  .col{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 100%;
+    box-shadow:rgba(6, 197, 244, 0.35) 0px 5px 15px;
+    margin-bottom: 26px;
+   margin-left: 50px;
+  
+  
+  }
+  #task{
+  
+   margin: auto ;
+   width: 70%;
+   margin-left: 100px;
+   box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+  }
+  #slack{
+    width: 50%;
+    margin-left:200px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+    /* border: 1px solid rgb(183, 226, 11); */
+    margin-top: 10px;
+  }
+  #widget{
+    margin-left: 460px;
+    margin-top: 30px;
+    box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+    /* border: 1px solid red; */
+    width: 22%;
+    display: block;
+   
+  }
+  #side{
+  display: flex;
+  /* border: 3px solid lawngreen; */
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  }
+  #mobile{
+    /* border: 1px solid palevioletred; */
+   margin: auto;
+  margin-left: -250px;
+   width: 30%;
+    margin-top: 60px;
+    box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+  }
+  #parallel{
+    /* border: 9px dotted darkblue; */
+    display: flex;
+  }
+  #last com{
+    border: 4px solid rgb(16, 193, 149);
+    width: 49%;
+   display: flex;
+   box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+   
+    
+  }
+  #com{
+    display: flex;
+   
+  }
+    #dash{
+      margin-left: 80px;
+     margin-top: 15px;
+      box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+    }
+    #last>#com>.twitter:nth-child(1){
+      margin-top: 60px;
+     /* border: 1px solid maroon; */
+     margin-left: 75px;
+     box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+     width: 90%;
+   
+    }
+    #last>#com>.twitter:nth-child(2){
+      margin-top: 60px;
+      box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px;
+      margin-left: 15px;
+      width: 90%;
+    }
+  .galaxy{
+    display: flex;
+    width:70%;
+    margin: auto;
+    margin-top: 25px;
+    
+  }
+  .para h3{
+    margin-top: 100px;
+    /* border: 1px solid greenyellow; */
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
+    text-align: left;
+    color: white;
+    font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+  }
+
+
+.parahead,.paratext{
+  color: white;
+}
+
+  .para p{
+    font-size: 20px;
+      line-height: 32px;
+      color: white;
+      margin-bottom: 50px;
+      font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  #center{
+    background: #0F1048;;
+    height:1250px;
+    overflow: hidden;
+    
+   position: relative;
+    display:flex;
+    margin-top: 120px;
+    /* clip-path: polygon(100% 50%, 100% 100% 100%); */
+  
+  }
+  .custom-shape-divider-top-1668322480 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1668322480 svg {
+    position: relative;
+    display: block;
+    width: calc(204% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-top-1668322480 .shape-fill {
+    fill: #FFFFFF;
+}
+  
+  /* #slanted{
+   width: 100%;
+    height: 1300px;
+    background-color: #0F1048;
+    position: absolute;
+    top: 1100px;
+   left: 0px;
+   transform: skewY(8deg);
+   transform-origin: top left;
+   z-index: -1;
+   margin-top: 120px;
+  }
+   */
+  
+  .tech{
+    display: flex;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  .tech img{
+    width: 15%;
+  border-radius: 50px;
+   
+    
+  }
+  .tech #quote{
+    color: white;
+    margin-left: 45px;
+  }
+  #quote>p{
+    line-height: 24px;
+  }
+ 
+  #right{
+    /* border: 1px solid pink; */
+    margin-top: 190px;
+    margin-right: 150px;
+    width: 68%;
+    height: 400px;
+    /* box-shadow: rgba(6, 197, 244, 0.35) 0px 5px 15px; */
+  }
+
+
+.rightvideo{
+  border-radius: 30px;
+
+}
+
+  #left{
+    /* border: 1px solid red; */
+  
+   height: 900px;
+  width: 110%;
+   overflow: auto;
+   margin-left: 150px;
+   
+  }
+  #left::-webkit-scrollbar{
+    width: 50%;
+  }
+  .custom-shape-divider-bottom-1668087387 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1668087387 svg {
+    position: relative;
+    display: block;
+    width: calc(202% + 1.3px);
+    height: 189px;
+}
+
+.custom-shape-divider-bottom-1668087387 .shape-fill {
+    fill: #FFFFFF;
+}

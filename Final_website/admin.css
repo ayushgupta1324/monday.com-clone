@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+}
+
+#navbar
+{
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    z-index:2;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+
+
+
+
+
+
+.admin-name a{
+    text-decoration: none;
+}
+.admin-name button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#operations-div{
+    display: flex;
+padding: 10px 30px 10px 30px;
+align-items: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.person-filter, .status-filter{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+}
+
+/* .filter-div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(44, 44, 44);
+} */
+
+.button-and-details-wrapper{
+    display: flex;
+    /* position: absolute; */
+    top: 0;
+    column-gap: 20px;
+}
+
+.details-button{
+    border: none;
+    border-radius: 9999px;
+    padding: 8px 16px 8px 16px;
+    color: white;
+    background-color: rgb(20, 140, 220);
+    cursor: pointer;
+    }
+
+.employee-button{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-wrapper{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+.employee_div
+{
+    width: 70%;
+    height:100px;
+    text-align: center;
+    padding: 4px 8px 4px 8px;
+    margin-top: 8px;
+    display: grid;
+    cursor: pointer;
+}
+
+.operations-div-filter{
+    display: flex;
+}
+

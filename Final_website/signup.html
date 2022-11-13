@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>monday.com | SIGNUP</title>
+    <link
+      rel="icon"
+      href="https://monday.com/p/wp-content/uploads/2020/07/monday-200x200-1.png"
+    />
+  </head>
+  <link rel="stylesheet" href="./signup.css" />
+  <body>
+    <div id="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img
+            src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png"
+            alt="monday.com-logo"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+            required
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" required />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+            required
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Enter password again"
+            required
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="checkbox_type">
+          <input
+            type="checkbox"
+            id="vehicle1"
+            name="privacy"
+            value="Read"
+            required
+          />
+          <label for="privacy">
+            I've read and accept the <span>Privacy Policy*</span></label
+          ><br />
+        </div>
+        <button id="submit_btn">Sign Up</button>
+      </form>
+      <div id="login">
+        <p>Already Signed Up?<a href="./login.html">LOGIN</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/signup.js"></script>
