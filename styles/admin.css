@@ -27,6 +27,16 @@
     margin-left: 16px;
 }
 
+.admin-name a{
+    text-decoration: none;
+}
+
+.admin-name button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 #operations-div{
     display: flex;
 padding: 10px 30px 10px 30px;

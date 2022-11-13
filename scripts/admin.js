@@ -180,3 +180,11 @@ function status_filter_result(data_passed)
 
         append(array_data)
 }
+
+
+let admin_btn = document.getElementById("admin-button");
+admin_btn.onclick = () =>{
+
+    location.assign("index.html")
+    
+}
