@@ -2,7 +2,7 @@ let form = document.querySelector("form")
 form.addEventListener("submit",createPost)
 const getData=async()=>{
     try{
-    let res =await fetch(`https://mysterious-sands-06936.herokuapp.com/posts`)
+    let res =await fetch(`https://different-bell-bottoms-fox.cyclic.app/sunday`)
     let data=await res.json()
     console.log(data)
     append(data)
@@ -13,7 +13,7 @@ const getData=async()=>{
     function append(data){
 
         data.forEach((el)=>{
-         if(el.id!=1){
+        
          let row=document.createElement("tr")
  
          let td1=document.createElement("td")
@@ -41,7 +41,7 @@ const getData=async()=>{
  
   row.append(td1,td2,td6,td3,td4,td5,)
   document.querySelector("tbody").append(row)
-         }
+       
         })
      }
    
@@ -70,7 +70,7 @@ async function  createPost(event){
 
 
 
-   let res=  await fetch('https://mysterious-sands-06936.herokuapp.com/posts',{
+   let res=  await fetch('https://different-bell-bottoms-fox.cyclic.app/sunday',{
     method:'POST',
     body:JSON.stringify(send_this_data),
     headers :{

@@ -2,7 +2,7 @@
 let data;
 let details_button = document.querySelector(".details-button");
 details_button.onclick =async () => {
-    let res = await fetch("https://mysterious-sands-06936.herokuapp.com/posts")
+    let res = await fetch("https://different-bell-bottoms-fox.cyclic.app/sunday")
     data = await res.json();
 
     append(data)
@@ -17,8 +17,7 @@ function append(data)
     details_div.innerHTML=null;
     data.forEach(element => {
 
-        if(element.id!=1)
-        {
+        
         let employee_div = document.createElement("div");
         employee_div.setAttribute("class", "employee_div")
 
@@ -60,7 +59,7 @@ function append(data)
        
         employee_div.append(employee_name,task_name,status_name,department,date_added)        
         details_div.append(employee_div);
-    }
+    
     });
     
 }
