@@ -60,8 +60,7 @@ This is the main landing page of the website. By clicking on get started you'll 
 ![monday_l1](https://user-images.githubusercontent.com/112663758/221873740-cadc2b04-e751-4378-9f22-6921fb37fe44.PNG)
 ![monday_l2](https://user-images.githubusercontent.com/112663758/221873748-01190b2e-c551-468d-b96e-66be30284d75.PNG)
 ![m_ss2](https://user-images.githubusercontent.com/112663758/221871467-11c6f4a0-37c9-44fd-a51b-26cfad1a9621.PNG)
-![m_ss3](https://user-images.githubusercontent.com/112663758/221871475-ab42d8bb-4d43-4b03-b0e7-abc1fb1da888.PNG)
-![m_ss4](https://user-images.githubusercontent.com/112663758/221871479-b3e435f8-88a2-4770-a0ca-cf672a0e41e4.PNG)
+![footer_monday](https://user-images.githubusercontent.com/112663758/221873039-9924b58b-e8ea-49bf-bf94-92fbebed2d2a.PNG)
 
 ### Sign up Page -
 
@@ -89,12 +88,6 @@ Here users can browse, `add the task` on `Create Task`, `Set Status` by `Selecti
 
 On this page, you can see users details. you can `filter` the user from their name and also, `filter` by `status`. 
 ![m_ss8](https://user-images.githubusercontent.com/112663758/221872550-9a1ed2a8-f69d-4dfb-940c-f2d5f77fc0b0.PNG)
-
-### Footer Section -
-
-On This Page there is info about the site....
-
-![footer_monday](https://user-images.githubusercontent.com/112663758/221873039-9924b58b-e8ea-49bf-bf94-92fbebed2d2a.PNG)
 
 
 ## Run Locally
